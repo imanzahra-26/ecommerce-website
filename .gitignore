@@ -1,0 +1,27 @@
+# ==== Root-level ignores ====
+# These apply across the whole project (backend + frontend)
+
+# Node modules — re-installable, huge
+node_modules/
+
+# Environment files — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/

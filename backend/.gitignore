@@ -1,0 +1,12 @@
+# Ignore installed libraries — they can always be re-installed with "npm install"
+node_modules/
+
+# Ignore secret environment file — NEVER push passwords to GitHub
+.env
+
+# Ignore log files
+*.log
+
+# Ignore OS junk files
+.DS_Store
+Thumbs.db
